@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Date and Time Picker</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div class="datetime-picker-container">
+  <!-- Start of form -->
+  <form id="appointmentForm">
+    <label for="datePicker">Pick date:</label>
+    <input type="date" id="datePicker" name="date" required>
+
+    <label for="timePicker">Pick time:</label>
+    <input type="time" id="timePicker" name="time" required>
+
+    <label for="doctorPicker">Select doctor:</label>
+    <select id="doctorPicker" name="doctor" required>
+      <option value="DrSanaWahi">Dr. Sana Wahi - Orthodontist</option>
+    </select>
+
+    <input type="submit" value="Confirm">
+  </form>
+  <!-- End of form -->
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
